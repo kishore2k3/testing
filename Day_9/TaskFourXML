@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+<test name="chromeTest">
+<parameter name="browsers" value="Chrome"/>
+<classes>
+<class name="com.example.ice.day9.TaskFour">
+</classes>
+</test>
+  <test name="edgeTest">
+    <classes name="browsers" value="Edge">
+      <class name="com.example.ice.day9.TaskFour"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
